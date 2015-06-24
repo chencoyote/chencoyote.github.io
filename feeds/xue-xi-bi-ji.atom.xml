@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Coyote's Blog</title><link href="/" rel="alternate"></link><link href="/feeds/xue-xi-bi-ji.atom.xml" rel="self"></link><id>/</id><updated>2015-05-11T10:09:11+08:00</updated><entry><title>Gitlab 本地部署笔记</title><link href="/articles/gitlab-ben-di-bu-shu-bi-ji.html" rel="alternate"></link><updated>2015-05-11T10:09:11+08:00</updated><author><name>coyote</name></author><id>tag:,2015-05-11:articles/gitlab-ben-di-bu-shu-bi-ji.html</id><summary type="html">&lt;h2&gt;下载地址&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Coyote's Blog</title><link href="http://chencoyote.github.io/" rel="alternate"></link><link href="http://chencoyote.github.io/feeds/xue-xi-bi-ji.atom.xml" rel="self"></link><id>http://chencoyote.github.io/</id><updated>2015-05-11T10:09:11+08:00</updated><entry><title>Gitlab 本地部署笔记</title><link href="http://chencoyote.github.io/articles/gitlab-ben-di-bu-shu-bi-ji.html" rel="alternate"></link><updated>2015-05-11T10:09:11+08:00</updated><author><name>coyote</name></author><id>tag:chencoyote.github.io,2015-05-11:articles/gitlab-ben-di-bu-shu-bi-ji.html</id><summary type="html">&lt;h2&gt;下载地址&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;# 地址被墙, 不过有种解决方法就是去改https为http可以下载, 但是速度很慢
 https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-ce-7.10.0~omnibus.2-1.x86_64.rpm
 &lt;/pre&gt;&lt;/div&gt;
@@ -73,7 +73,7 @@ local   all         all                               peer map=gitlab
 
 
 &lt;p&gt;问题解决, 但是具体为啥, 请查看postgresql文档&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注意: 每次reconfigure之后, 该文件被还原, 需要重新修改&lt;/strong&gt;&lt;/p&gt;</summary><category term="git"></category></entry><entry><title>leetcode刷算法开坑</title><link href="/articles/leetcodeshua-suan-fa-kai-keng.html" rel="alternate"></link><updated>2015-03-24T15:34:36+08:00</updated><author><name>coyote</name></author><id>tag:,2015-03-24:articles/leetcodeshua-suan-fa-kai-keng.html</id><summary type="html">&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;注意: 每次reconfigure之后, 该文件被还原, 需要重新修改&lt;/strong&gt;&lt;/p&gt;</summary><category term="git"></category></entry><entry><title>leetcode刷算法开坑</title><link href="http://chencoyote.github.io/articles/leetcodeshua-suan-fa-kai-keng.html" rel="alternate"></link><updated>2015-03-24T15:34:36+08:00</updated><author><name>coyote</name></author><id>tag:chencoyote.github.io,2015-03-24:articles/leetcodeshua-suan-fa-kai-keng.html</id><summary type="html">&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://leetcode.com/problemset/algorithms/"&gt;LeetCode OJ&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/chencoyote/pyleetcode"&gt;我的git库&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;背景&lt;/h2&gt;
@@ -120,7 +120,7 @@ local   all         all                               peer map=gitlab
 &lt;p&gt;我的理解就是说, 
 1. 先分成16组, 那么在与操作&lt;code&gt;0x3333333333333333&lt;/code&gt;的时候, 就相当于统计出这16组中的第一位是&lt;code&gt;1&lt;/code&gt;的个数, 然后用&lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;操作来位移之后, 统计出16组中第二位是&lt;code&gt;1&lt;/code&gt;的个数
 2. 两次之和就是16组中1的个数, 但是现在这16组并不能直接统计出结果, &lt;em&gt;但是你要是自己数的话, 已经知道了, 要这样做一开始就自己数了, 现在不是让计算机数嘛&lt;/em&gt;
-3. 然后把统计出的结果二分为8组, &lt;/p&gt;</summary><category term="python"></category><category term="algorithms"></category></entry><entry><title>PyChina社区 与 Ruby社区的几点对比</title><link href="/articles/pychinashe-qu-yu-rubyshe-qu-de-ji-dian-dui-bi.html" rel="alternate"></link><updated>2014-12-31T16:28:47+08:00</updated><author><name>coyote</name></author><id>tag:,2014-12-31:articles/pychinashe-qu-yu-rubyshe-qu-de-ji-dian-dui-bi.html</id><summary type="html">&lt;h2&gt;前言&lt;/h2&gt;
+3. 然后把统计出的结果二分为8组, &lt;/p&gt;</summary><category term="python"></category><category term="algorithms"></category></entry><entry><title>PyChina社区 与 Ruby社区的几点对比</title><link href="http://chencoyote.github.io/articles/pychinashe-qu-yu-rubyshe-qu-de-ji-dian-dui-bi.html" rel="alternate"></link><updated>2014-12-31T16:28:47+08:00</updated><author><name>coyote</name></author><id>tag:chencoyote.github.io,2014-12-31:articles/pychinashe-qu-yu-rubyshe-qu-de-ji-dian-dui-bi.html</id><summary type="html">&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;sting 和 ZQ(大妈) 一直在为PyChina 和 PyConChina的事情忙前忙后
 制定方案, 提供资源, 但是碍于时间精力, 而且仅靠二人之力无法完成
 如此庞大的社区建设, 而且很多事情不能通过一个人的思想去发展, 
@@ -184,7 +184,7 @@ local   all         all                               peer map=gitlab
 &lt;li&gt;&lt;a href="http://weekly.pychina.org/"&gt;PyWeekly&lt;/a&gt; &lt;a href="http://zoomquiet.io/"&gt;@ZQ&lt;/a&gt; 大妈负责翻译的周刊, 是需要协作翻译,在赶上周刊历史所有 issue 的快译后,成为官方中文版, 就多一个将国产妙物推荐给外国小伙伴的稳定渠道呢!&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://cn.pycon.org/"&gt;PyConChina&lt;/a&gt; 招募长期兼职志愿者来运维官网哪&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;有志愿意向联系我, 技术工种, 文案工种 大量&lt;/p&gt;</summary><category term="python"></category><category term="PyChina"></category></entry><entry><title>multiprocessing 深度分析</title><link href="/articles/multiprocessing-shen-du-fen-xi.html" rel="alternate"></link><updated>2014-12-19T16:52:53+08:00</updated><author><name>coyote</name></author><id>tag:,2014-12-19:articles/multiprocessing-shen-du-fen-xi.html</id><summary type="html">&lt;p&gt;&lt;a href="http://pymotw.com/2/multiprocessing/basics.html"&gt;原文&lt;/a&gt;
+&lt;p&gt;有志愿意向联系我, 技术工种, 文案工种 大量&lt;/p&gt;</summary><category term="python"></category><category term="PyChina"></category></entry><entry><title>multiprocessing 深度分析</title><link href="http://chencoyote.github.io/articles/multiprocessing-shen-du-fen-xi.html" rel="alternate"></link><updated>2014-12-19T16:52:53+08:00</updated><author><name>coyote</name></author><id>tag:chencoyote.github.io,2014-12-19:articles/multiprocessing-shen-du-fen-xi.html</id><summary type="html">&lt;p&gt;&lt;a href="http://pymotw.com/2/multiprocessing/basics.html"&gt;原文&lt;/a&gt;
 Coyote翻译整理&lt;/p&gt;
 &lt;h2&gt;正文&lt;/h2&gt;
 &lt;h3&gt;multiprocessing 基本用法&lt;/h3&gt;
@@ -578,7 +578,7 @@ In Worker-5
 
 &lt;h2&gt;PS&lt;/h2&gt;
 &lt;p&gt;&lt;a href="http://pymotw.com/2/multiprocessing/basics.html"&gt;原文链接&lt;/a&gt;
-由&lt;strong&gt;@Coyote&lt;/strong&gt;翻译, 转载需注明原文和翻译者&lt;/p&gt;</summary><category term="python"></category><category term="multiprocessing"></category></entry><entry><title>multiprocessing学习笔记</title><link href="/articles/multiprocessingxue-xi-bi-ji.html" rel="alternate"></link><updated>2014-12-19T16:52:53+08:00</updated><author><name>coyote</name></author><id>tag:,2014-12-19:articles/multiprocessingxue-xi-bi-ji.html</id><summary type="html">&lt;h2&gt;multiprocessing&lt;/h2&gt;
+由&lt;strong&gt;@Coyote&lt;/strong&gt;翻译, 转载需注明原文和翻译者&lt;/p&gt;</summary><category term="python"></category><category term="multiprocessing"></category></entry><entry><title>multiprocessing学习笔记</title><link href="http://chencoyote.github.io/articles/multiprocessingxue-xi-bi-ji.html" rel="alternate"></link><updated>2014-12-19T16:52:53+08:00</updated><author><name>coyote</name></author><id>tag:chencoyote.github.io,2014-12-19:articles/multiprocessingxue-xi-bi-ji.html</id><summary type="html">&lt;h2&gt;multiprocessing&lt;/h2&gt;
 &lt;p&gt;multiprocessing是Python 标准库中的多进程库, 由于Python不建议使用线程,所以尽可能的减少使用线程,如果需要建议使用 第三方库 futures来创建线程.&lt;/p&gt;
 &lt;h3&gt;使用并发进程的好处&lt;/h3&gt;
 &lt;ul&gt;
@@ -707,7 +707,7 @@ In Worker-5
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;源代码记不清了,但是这个代码存在的问题就是其中第一个continue是没有sleep的,如果a到某一个时刻一直大于零,则会进入无挂起的死循环,CPU会被占满,这样就是无意间写出了一个bug, 示例代码可能比较短,不容易发现,如果代码比较长就会不容易发现这个bug,所以最好的方法就是,如果对于时间精度没有严格要求的代码的话,建议进入while循环先sleep, 这样避免了无意的资源浪费的.&lt;/p&gt;</summary><category term="python"></category><category term="multiprocessing"></category></entry><entry><title>ZeroMQ学习笔记（一）</title><link href="/articles/zeromqxue-xi-bi-ji-yi.html" rel="alternate"></link><updated>2014-12-18T11:00:07+08:00</updated><author><name>coyote</name></author><id>tag:,2014-12-18:articles/zeromqxue-xi-bi-ji-yi.html</id><summary type="html">&lt;h2&gt;啥是ZMQ&lt;/h2&gt;
+&lt;p&gt;源代码记不清了,但是这个代码存在的问题就是其中第一个continue是没有sleep的,如果a到某一个时刻一直大于零,则会进入无挂起的死循环,CPU会被占满,这样就是无意间写出了一个bug, 示例代码可能比较短,不容易发现,如果代码比较长就会不容易发现这个bug,所以最好的方法就是,如果对于时间精度没有严格要求的代码的话,建议进入while循环先sleep, 这样避免了无意的资源浪费的.&lt;/p&gt;</summary><category term="python"></category><category term="multiprocessing"></category></entry><entry><title>ZeroMQ学习笔记（一）</title><link href="http://chencoyote.github.io/articles/zeromqxue-xi-bi-ji-yi.html" rel="alternate"></link><updated>2014-12-18T11:00:07+08:00</updated><author><name>coyote</name></author><id>tag:chencoyote.github.io,2014-12-18:articles/zeromqxue-xi-bi-ji-yi.html</id><summary type="html">&lt;h2&gt;啥是ZMQ&lt;/h2&gt;
 &lt;p&gt;官方如是说&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;ZMQ (以下 ZeroMQ 简称 ZMQ)是一个简单好用的传输层，像框架一样的一个 socket library，他使得 Socket 编程更加简单、简洁和性能更高。是一个消息处理队列库，可在多个线程、内核和主机盒之间弹性伸缩。ZMQ 的明确目标是“成为标准网络协议栈的一部分，之后进入 Linux 内核”。现在还未看到它们的成功。但是，它无疑是极具前景的、并且是人们更加需要的“传统”BSD 套接字之上的一层封装。ZMQ 让编写高性能网络应用程序极为简单和有趣。&lt;/p&gt;

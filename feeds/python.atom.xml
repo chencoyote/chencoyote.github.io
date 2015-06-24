@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Coyote's Blog</title><link href="/" rel="alternate"></link><link href="/feeds/python.atom.xml" rel="self"></link><id>/</id><updated>2015-03-19T11:24:39+08:00</updated><entry><title>Python中的下划线</title><link href="/articles/pythonzhong-de-xia-hua-xian.html" rel="alternate"></link><updated>2015-03-19T11:24:39+08:00</updated><author><name>coyote</name></author><id>tag:,2015-03-19:articles/pythonzhong-de-xia-hua-xian.html</id><summary type="html">&lt;h2&gt;原文&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Coyote's Blog</title><link href="http://chencoyote.github.io/" rel="alternate"></link><link href="http://chencoyote.github.io/feeds/python.atom.xml" rel="self"></link><id>http://chencoyote.github.io/</id><updated>2015-03-19T11:24:39+08:00</updated><entry><title>Python中的下划线</title><link href="http://chencoyote.github.io/articles/pythonzhong-de-xia-hua-xian.html" rel="alternate"></link><updated>2015-03-19T11:24:39+08:00</updated><author><name>coyote</name></author><id>tag:chencoyote.github.io,2015-03-19:articles/pythonzhong-de-xia-hua-xian.html</id><summary type="html">&lt;h2&gt;原文&lt;/h2&gt;
 &lt;p&gt;码农周刊推送 个人翻译
 原文在 --&amp;gt; &lt;a href="http://shahriar.svbtle.com/underscores-in-python"&gt;Underscores in Python By SHAHRIAR TAJBAKHSH&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;正文&lt;/h2&gt;
@@ -105,7 +105,7 @@ from django.http import HttpResponse&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;最好的方法避免这种命名方式, 就是不用!&lt;/p&gt;</summary><category term="pythonnic"></category></entry><entry><title>转载: idiomatic.py</title><link href="/articles/zhuan-zai-idiomaticpy.html" rel="alternate"></link><updated>2015-03-05T10:54:30+08:00</updated><author><name>coyote</name></author><id>tag:,2015-03-05:articles/zhuan-zai-idiomaticpy.html</id><summary type="html">&lt;h2&gt;背景&lt;/h2&gt;
+&lt;p&gt;最好的方法避免这种命名方式, 就是不用!&lt;/p&gt;</summary><category term="pythonnic"></category></entry><entry><title>转载: idiomatic.py</title><link href="http://chencoyote.github.io/articles/zhuan-zai-idiomaticpy.html" rel="alternate"></link><updated>2015-03-05T10:54:30+08:00</updated><author><name>coyote</name></author><id>tag:chencoyote.github.io,2015-03-05:articles/zhuan-zai-idiomaticpy.html</id><summary type="html">&lt;h2&gt;背景&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;新年第一篇~ 写在正月十五元宵节! 新年快乐, 过了十五就过了年, 开始进入状态工作啦~&lt;/li&gt;
 &lt;li&gt;PyConChina2014在北京没看到干货, 但是杭州 @施远敏 分享了一个适合于有些基础, 但是觉得不够Pythonnic的学者&lt;/li&gt;
@@ -690,7 +690,7 @@ Out[22]: &amp;#39;01000010 01101001 01100111 01100111 01100101 01110010 00100000
 &lt;a href="http://ua.pycon.org/static/talks/kachayev"&gt;functional python&lt;/a&gt;
 &lt;a href="https://docs.python.org/2/library/functools.html"&gt;functools&lt;/a&gt;
 &lt;a href="http://pydash.readthedocs.org/en/latest/"&gt;pydash&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;感谢作者!!!&lt;/h2&gt;</summary><category term="pythonnic"></category></entry><entry><title>转载:Pocoo风格指引--指引自己强制遵守</title><link href="/articles/zhuan-zai-pocoofeng-ge-zhi-yin-zhi-yin-zi-ji-qiang-zhi-zun-shou.html" rel="alternate"></link><updated>2015-01-07T12:42:55+08:00</updated><author><name>coyote</name></author><id>tag:,2015-01-07:articles/zhuan-zai-pocoofeng-ge-zhi-yin-zhi-yin-zi-ji-qiang-zhi-zun-shou.html</id><summary type="html">&lt;h2&gt;警醒自己&lt;/h2&gt;
+&lt;h2&gt;感谢作者!!!&lt;/h2&gt;</summary><category term="pythonnic"></category></entry><entry><title>转载:Pocoo风格指引--指引自己强制遵守</title><link href="http://chencoyote.github.io/articles/zhuan-zai-pocoofeng-ge-zhi-yin-zhi-yin-zi-ji-qiang-zhi-zun-shou.html" rel="alternate"></link><updated>2015-01-07T12:42:55+08:00</updated><author><name>coyote</name></author><id>tag:chencoyote.github.io,2015-01-07:articles/zhuan-zai-pocoofeng-ge-zhi-yin-zhi-yin-zi-ji-qiang-zhi-zun-shou.html</id><summary type="html">&lt;h2&gt;警醒自己&lt;/h2&gt;
 &lt;p&gt;良好的项目团队就有良好的编码风格, 成为一个Pythonic的Pythoner
 必须有好的学习精神. 如何写出Pythonic的代码, 个人参考考本文中Pocoo的风格
 推荐阅读本文的初学者, 一起使用! Be Pythonic~&lt;/p&gt;

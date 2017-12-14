@@ -6,11 +6,11 @@
 	<meta name="author" content="coyote">
 	
 
-	<link rel="stylesheet" href="http://chencoyote.github.io/theme/css/main.css" type="text/css" />
+	<link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
 		
 
 
-    <link href="http://chencoyote.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Coyote's Blog Atom Feed" />
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Coyote's Blog Atom Feed" />
 </head>
 	
 <body>
@@ -19,15 +19,15 @@
 	  
 	  <header role="banner">
 	    <div class="feeds">
-	      <a href="http://chencoyote.github.io/feeds/all.atom.xml" rel="alternate"><img src="http://chencoyote.github.io/theme/images/icons/feed-32px.png" alt="atom feed"/></a>
+	      <a href="/feeds/all.atom.xml" rel="alternate"><img src="/theme/images/icons/feed-32px.png" alt="atom feed"/></a>
 	    </div>
 	      <nav class="pages">
-			  <a href="http://chencoyote.github.io/archives">Archives</a>
--			  <a href="http://chencoyote.github.io/tags">Tags</a>
--			  <a href="http://chencoyote.github.io/pages/personal-awesome.html">Personal Awesome</a>
--			  <a href="http://chencoyote.github.io/pages/about-me.html">About Me</a>
+			  <a href="/archives">Archives</a>
+			  <a href="/tags">Tags</a>
+			  <a href="/pages/personal-awesome.html">Personal Awesome</a>
+			  <a href="/pages/about-me.html">About Me</a>
 	      </nav>
-		<a href="http://chencoyote.github.io" class="title">Coyote's Blog</a>
+		<a href="" class="title">Coyote's Blog</a>
       </header>
 	
 	  <div class="wrapper">
@@ -37,7 +37,7 @@
 
 
       <article>
-        <h1><a href="http://chencoyote.github.io/articles/gitlab-ben-di-bu-shu-bi-ji.html">Gitlab 本地部署笔记</a></h1>
+        <h1><a href="/articles/gitlab-ben-di-bu-shu-bi-ji.html">Gitlab 本地部署笔记</a></h1>
         <h2>下载地址</h2>
 <div class="highlight"><pre># 地址被墙, 不过有种解决方法就是去改https为http可以下载, 但是速度很慢
 https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-ce-7.10.0~omnibus.2-1.x86_64.rpm
@@ -80,7 +80,7 @@ https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-ce-7.10.0~omnibus.
 <p><code>gitlab-rake clear</code> 故名意思, 直接清干净数据库信息, 但是服务器上的repo是不会一起清除的, 需要手动清除</p>
 </li>
 <li>
-<p>页面显示500错误: 查看日志, 使用先使用<code>gitlab-ctl status</code>查看状态, 如果进程出现问题是会一直重启的,所以可以使用 <code>gitlab-ctl tail 进程名</code> 来查看单个进程的日志, 如果tail后面没有进程名, 则显示全部进程的名称</p>
+<p>页面显示500错误: 查看日志, 使用先使用<code>gitlab-ctl status</code>查看状态, 如果进程出现问题是会一直重启的,所以可以使用 <code>itlab-ctl tail 进程名</code> 来查看单个进程的日志, 如果tail后面没有进程名, 则显示全部进程的名称</p>
 </li>
 <li>
 <p>nginx配置: nginx配置起来非常麻烦, 所以索性我就关掉了, 找到对应的配置文件修改一下就可以了</p>
@@ -93,8 +93,8 @@ https://downloads-packages.s3.amazonaws.com/centos-6.6/gitlab-ce-7.10.0~omnibus.
 </li>
 </ol>
 <div class="highlight"><pre>==&gt; /var/log/gitlab/postgresql/current &lt;==
-2015-05-08_12:04:03.93789 FATAL:  no pg_hba.conf entry for host &quot;127.0.0.1&quot;, user &quot;gitlab&quot;, database &quot;gitlabhq_production&quot;, SSL off
-2015-05-08_12:04:03.94352 FATAL:  no pg_hba.conf entry for host &quot;127.0.0.1&quot;, user &quot;gitlab&quot;, database &quot;gitlabhq_production&quot;, SSL off
+2015-05-08_12:04:03.93789 FATAL:  no pg_hba.conf entry for host &quot;127.0.0.1&quot;, user &quot;gitlab&quot;, database &quot;itlabhq_production&quot;, SSL off
+2015-05-08_12:04:03.94352 FATAL:  no pg_hba.conf entry for host &quot;127.0.0.1&quot;, user &quot;gitlab&quot;, database &quot;itlabhq_production&quot;, SSL off
 </pre></div>
 
 
@@ -124,33 +124,33 @@ local   all         all                               peer map=gitlab
 
 
       <li>
-<a href="http://chencoyote.github.io/articles/application-performance-managementapm.html" rel="bookmark" title="Permalink to Application performance management（APM）">Application performance management（APM）</a>
+<a href="/articles/application-performance-managementapm.html" rel="bookmark" title="Permalink to Application performance anagement（APM）">Application performance management（APM）</a>
   <time datetime="2015-04-13T15:14:14+08:00" pubdate>Mon 13 April 2015</time>
-<p class="tags">tags: <a href="http://chencoyote.github.io/tag/apm.html">apm</a></p></a>      </li>
+<p class="tags">tags: <a href="/tag/apm.html">apm</a></p></a>      </li>
 
 
       <li>
-<a href="http://chencoyote.github.io/articles/leetcodeshua-suan-fa-kai-keng.html" rel="bookmark" title="Permalink to leetcode刷算法开坑">leetcode刷算法开坑</a>
+<a href="/articles/leetcodeshua-suan-fa-kai-keng.html" rel="bookmark" title="Permalink to leetcode刷算法开坑">leetcode刷算法开坑</a>
   <time datetime="2015-03-24T15:34:36+08:00" pubdate>Tue 24 March 2015</time>
-<p class="tags">tags: <a href="http://chencoyote.github.io/tag/python.html">python</a><a href="http://chencoyote.github.io/tag/algorithms.html">algorithms</a></p></a>      </li>
+<p class="tags">tags: <a href="/tag/python.html">python</a><a href="/tag/algorithms.html">algorithms</a></p></a>      </li>
 
 
       <li>
-<a href="http://chencoyote.github.io/articles/pythonzhong-de-xia-hua-xian.html" rel="bookmark" title="Permalink to Python中的下划线">Python中的下划线</a>
+<a href="/articles/pythonzhong-de-xia-hua-xian.html" rel="bookmark" title="Permalink to Python中的下划线">Python中的下划线</a>
   <time datetime="2015-03-19T11:24:39+08:00" pubdate>Thu 19 March 2015</time>
-<p class="tags">tags: <a href="http://chencoyote.github.io/tag/pythonnic.html">pythonnic</a></p></a>      </li>
+<p class="tags">tags: <a href="/tag/pythonnic.html">pythonnic</a></p></a>      </li>
 
 
       <li>
-<a href="http://chencoyote.github.io/articles/za-nian-gong-zuo-liang-nian-de-xin-lu-zong-jie.html" rel="bookmark" title="Permalink to 杂念--工作两年的心路总结">杂念--工作两年的心路总结</a>
+<a href="/articles/za-nian-gong-zuo-liang-nian-de-xin-lu-zong-jie.html" rel="bookmark" title="Permalink to 杂念--工作两年的心路总结">杂念--工作两年的心路总结</a>
   <time datetime="2015-03-18T10:57:03+08:00" pubdate>Wed 18 March 2015</time>
-<p class="tags">tags: <a href="http://chencoyote.github.io/tag/chaos.html">Chaos</a></p></a>      </li>
+<p class="tags">tags: <a href="/tag/chaos.html">Chaos</a></p></a>      </li>
 
 
       <li>
-<a href="http://chencoyote.github.io/articles/zhuan-zai-idiomaticpy.html" rel="bookmark" title="Permalink to 转载: idiomatic.py">转载: idiomatic.py</a>
+<a href="/articles/zhuan-zai-idiomaticpy.html" rel="bookmark" title="Permalink to 转载: idiomatic.py">转载: idiomatic.py</a>
   <time datetime="2015-03-05T10:54:30+08:00" pubdate>Thu 05 March 2015</time>
-<p class="tags">tags: <a href="http://chencoyote.github.io/tag/pythonnic.html">pythonnic</a></p></a>      </li>
+<p class="tags">tags: <a href="/tag/pythonnic.html">pythonnic</a></p></a>      </li>
 
 
 
@@ -187,14 +187,14 @@ local   all         all                               peer map=gitlab
   	          <nav>
 	            <h2>Categories</h2>
 	            <ul>
-	                <li ><a href="http://chencoyote.github.io/category/ce-shi.html">测试</a></li>
-	                <li ><a href="http://chencoyote.github.io/category/ewen-fan-yi.html">E文翻译</a></li>
-	                <li ><a href="http://chencoyote.github.io/category/ji-zhu.html">技术</a></li>
-	                <li ><a href="http://chencoyote.github.io/category/linux.html">Linux</a></li>
-	                <li ><a href="http://chencoyote.github.io/category/python.html">Python</a></li>
-	                <li ><a href="http://chencoyote.github.io/category/qi-ta.html">其他</a></li>
-	                <li ><a href="http://chencoyote.github.io/category/sublime-text.html">Sublime Text</a></li>
-	                <li ><a href="http://chencoyote.github.io/category/xue-xi-bi-ji.html">学习笔记</a></li>
+	                <li ><a href="/category/ce-shi.html">测试</a></li>
+	                <li ><a href="/category/ewen-fan-yi.html">E文翻译</a></li>
+	                <li ><a href="/category/ji-zhu.html">技术</a></li>
+	                <li ><a href="/category/linux.html">Linux</a></li>
+	                <li ><a href="/category/python.html">Python</a></li>
+	                <li ><a href="/category/qi-ta.html">其他</a></li>
+	                <li ><a href="/category/sublime-text.html">Sublime Text</a></li>
+	                <li ><a href="/category/xue-xi-bi-ji.html">学习笔记</a></li>
 	            </ul>
 	          </nav>
 
@@ -202,20 +202,16 @@ local   all         all                               peer map=gitlab
 	            <h2>Social</h2>
 			      <ul class="social">
 				    <li><a href="https://github.com/chencoyote">Github</a><i></i></li>
-				    <li><a href="https://plus.google.com/u/0/104542842241928417898/posts">Google+</a><i></i></li>
-				    <li><a href="https://twitter.com/Coyote_chen">Twitter</a><i></i></li>
-				    <li><a href="http://weibo.com/coytoe">Weibo</a><i></i></li>
-				    <li><a href="http://v2ex.com/member/Coyote">V2EX</a><i></i></li>
 			      </ul>
 			    </aside>
 
 	            <aside>
 	              <h2>Blogroll</h2>
 	              <ul>
+	                  <li><a href="http://getpelican.com/">Pelican</a></li>
 	                  <li><a href="http://python.org/">Python.org</a></li>
-	                  <li><a href="http://pychina.org">PyChina</a></li>
-	                  <li><a href="http://weekly.pychina.org">PyWeekly</a></li>
-	                  <li><a href="http://cn.pycon.org">PyConChina</a></li>
+	                  <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+	                  <li><a href="#">You can modify those links in your config file</a></li>
 	              </ul>
 	            </aside>
 	        </div>
@@ -225,25 +221,12 @@ local   all         all                               peer map=gitlab
 
       <footer>
 		<p role="contentinfo">
-		  coyote - Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>. Theme <a href="https://github.com/fle/pelican-sober">pelican-sober</a>.
+		  coyote - Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>. Theme <a href="https://github.om/fle/pelican-sober">pelican-sober</a>.
     	</p>
 
 	  </footer>	
 
 	</div>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'chencoyotegithubio';
-        
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 	
 
 </body>
